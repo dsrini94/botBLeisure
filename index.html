@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+          <title>Web Channel</title>
+          <meta charset = "UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+          <style>
+#example1 {
+    border: 2px solid white;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("botweb.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height:100vh;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-bottom: -20%;
+
+}
+p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+}
+</style>
+        </head>
+        <body>
+          <!-- <div id = "app"></div> -->
+          <script src = "index.js"></script>
+<div id="example1">
+
+<h1>BLeisure</h1>
+<p>It is a rental car booking assistant who can leverage loyalty points across various partners in hospitality, travel and transport.</p>
+<!-- <img src="final2.png" height="800px"> -->
+</div>
+          <script type="text/javascript">
+           var AvaamoChatBot=function(t){function o(t,o){var n=document.createElement("script");n.setAttribute("src",t),n.onload=o,document.body.appendChild(n)}return this.options=t||{},this.load=function(t){o(this.options.url,function(){window.Avaamo.addFrame(),t&&"function"==typeof(t)&&t(window.Avaamo)})},this};
+           var chatBox = new AvaamoChatBot({url: 'https://c0.avaamo.com/web_channels/1063e336-3c48-4ba2-8697-404d5c04fa1e?banner=true&banner_text=+&banner_title=This+is+how+chat+bot+shows+up&demo=true&theme=avm-blue'});
+           chatBox.load();
+         </script>
+        </body>
+      </html>
